@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="adoc"
+                 name="HitchPin Payments SDK"
+                 start-page="api-docs.md">
+
+    <toc-element topic="api-docs.md"/>
+    <toc-element topic="API_Reference.md">
+        <toc-element topic="Wallet.md">
+            <toc-element topic="wallet_balance_GET.md"/>
+            <toc-element topic="wallet_transactions_GET.md"/>
+            <toc-element topic="wallet_credits_GET.md"/>
+            <toc-element topic="Admin.md">
+                <toc-element topic="wallet_admin_PUT.md"/>
+                <toc-element topic="wallet_admin_walletId_POST.md"/>
+            </toc-element>
+            <toc-element topic="PayoutDestinations.md">
+                <toc-element topic="wallet_dest_GET.md"/>
+                <toc-element topic="wallet_dest_PUT.md"/>
+                <toc-element topic="wallet_dest_destinationId_DELETE.md"/>
+            </toc-element>
+            <toc-element topic="PaymentMethods.md">
+                <toc-element topic="wallet_src_GET.md"/>
+                <toc-element topic="wallet_src_PUT.md"/>
+                <toc-element topic="wallet_src_methodId_DELETE.md"/>
+            </toc-element>
+        </toc-element>
+        <toc-element topic="Invoices.md">
+            <toc-element topic="workflow_execution_POST.md"/>
+            <toc-element topic="workflow_continue_executionId_POST.md"/>
+            <toc-element topic="workflow_execution_executionId_GET.md"/>
+            <toc-element topic="workflow_execution_executionId_DELETE.md"/>
+        </toc-element>
+        <toc-element topic="Auth.md">
+            <toc-element topic="auth_authorize_POST.md"/>
+            <toc-element topic="auth_token_POST.md"/>
+        </toc-element>
+    </toc-element>
+</instance-profile>
